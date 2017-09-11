@@ -1,0 +1,36 @@
+/*
+* Stylesheet for google's homepage
+* @author Judith Kamba
+*/
+
+body {
+    background: #fff;
+    margin: 0;
+}
+.wrap {
+    width: 100%;
+}
+
+/* =HEADER */
+
+
+/* =LOGO */
+
+.identity {
+    margin-top: 120px;
+}
+
+/* Center the logo horizontally */
+
+.logo {
+    background: url("img/logo-google.png") no-repeat;
+    height: 92px;
+    margin: 0 auto;
+    width: 272px;
+}
+
+
+/* =FORM */
+
+
+/* =FOOTER */
