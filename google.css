@@ -3,17 +3,20 @@
 * @author Judith Kamba
 */
 
+
+/* Layout */
+
+html,
 body {
-    background: #fff;
+    height: 100%;
     margin: 0;
+    padding: 0;
 }
 
 .wrap {
     width: 100%;
+    min-height: 100%;
 }
-
-
-/* =HEADER */
 
 
 /* =LOGO */
@@ -43,6 +46,7 @@ body {
 
 /* =FORM */
 
+
 /* Center search box horizontally */
 
 .b-search {
@@ -66,5 +70,6 @@ body {
     height: 35px;
     padding: 5px 15px;
 }
+
 
 /* =FOOTER */
