@@ -1,5 +1,5 @@
 /*
-* Stylesheet for google's homepage
+* Stylesheet for lookalike Google's homepage
 * @author Judith Kamba
 */
 
@@ -7,9 +7,11 @@ body {
     background: #fff;
     margin: 0;
 }
+
 .wrap {
     width: 100%;
 }
+
 
 /* =HEADER */
 
@@ -19,6 +21,7 @@ body {
 .identity {
     margin-top: 120px;
 }
+
 
 /* Center the logo horizontally */
 
@@ -30,13 +33,38 @@ body {
 }
 
 .country {
-    font: 14px/14px sans-serif;
+    font: 14px sans-serif;
     color: #4285f4;
     position: relative;
     top: 70px;
     left: 215px;
 }
 
+
 /* =FORM */
+
+/* Center search box horizontally */
+
+.b-search {
+    height: 30px;
+    margin: 25px 0 0;
+    text-align: center;
+}
+
+.b-search .search {
+    height: 100%;
+    width: 430px;
+    padding: 2px 8px;
+}
+
+.b-search .submit-button {
+    background-color: #f2f2f2;
+    border: none;
+    color: #888;
+    font: bold 13px sans-serif;
+    margin: 25px 3px 0;
+    height: 35px;
+    padding: 5px 15px;
+}
 
 /* =FOOTER */
