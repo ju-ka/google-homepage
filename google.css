@@ -3,6 +3,10 @@
 * @author Judith Kamba
 */
 
+* {
+    outline: 1px solid orange;
+}
+
 
 /* Layout */
 
@@ -13,8 +17,8 @@ body {
     padding: 0;
 }
 
+body,
 .wrap {
-    width: 100%;
     min-height: 100%;
 }
 
@@ -22,7 +26,8 @@ body {
 /* =LOGO */
 
 .identity {
-    margin-top: 120px;
+    height: 100%;
+    margin: 20px 0 0;
 }
 
 
@@ -41,6 +46,7 @@ body {
     position: relative;
     top: 70px;
     left: 215px;
+    width: 50px;
 }
 
 
@@ -50,15 +56,16 @@ body {
 /* Center search box horizontally */
 
 .b-search {
-    height: 30px;
+    height: 100%;
     margin: 25px 0 0;
     text-align: center;
 }
 
 .b-search .search {
-    height: 100%;
-    width: 430px;
+    height: 95%;
+    width: 60%;
     padding: 2px 8px;
+    margin: 0 auto;
 }
 
 .b-search .submit-button {
