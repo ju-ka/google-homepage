@@ -4,13 +4,17 @@
 */
 
 
-/* Layout */
+/* =Layout */
+
+
+/* Make body,#wrap height expand  */
 
 html,
 body {
     height: 100%;
     margin: 0;
     padding: 0;
+    font: 1em arial, sans-serif;
 }
 
 body,
@@ -19,27 +23,52 @@ body,
 }
 
 
+/* =General Style */
+
+a {
+    text-decoration: none;
+}
+
+
 /* =HEADER */
 
 .header {
-    padding-bottom: 30px;
     text-align: right;
     height: 70px;
+    vertical-align: middle;
 }
 
-.nav {
+.header .nav {
     text-align: right;
-    padding: 5px 1px;
+    padding-right: 10px;
+    padding-top: 5px;
 }
 
 .nav .link {
-    color: #000;
-    padding: 0 5px 0;
-    text-decoration: none;
+    color: #222;
+    padding: 0 6px;
 }
 
 .nav .link:hover {
     text-decoration: underline;
+}
+
+.nav .apps {
+    vertical-align: middle;
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    background-image: url('img/icon-apps.png');
+}
+
+.nav .login {
+    background-color: #4285f4;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 5px;
+    font: bold 0.9em arial, sans-serif;
+    display: inline-block;
 }
 
 
@@ -54,14 +83,14 @@ body,
 
 /* Center the logo horizontally */
 
-.logo {
+.identity .logo {
     background: url("img/logo-google.png") no-repeat;
     height: 92px;
     margin: 0 auto;
     width: 272px;
 }
 
-.country {
+.identity .country {
     font: 14px sans-serif;
     color: #4285f4;
     position: relative;
